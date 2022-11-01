@@ -1,0 +1,7 @@
+{
+  "name": "external-server",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

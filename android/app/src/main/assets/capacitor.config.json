@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "external-capacitor-server",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

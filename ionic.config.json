@@ -1,5 +1,5 @@
 {
-  "name": "external-server",
+  "name": "external-capacitor-server",
   "integrations": {
     "capacitor": {}
   },

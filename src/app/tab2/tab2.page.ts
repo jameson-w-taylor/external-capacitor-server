@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Storage } from '@capacitor/storage';
 
 @Component({
   selector: 'app-tab2',
@@ -9,4 +10,9 @@ export class Tab2Page {
 
   constructor() {}
 
+  ionViewDidEnter() {
+    Storage.migrate().then((result) => {
+      console.log(result);
+    });
+  }
 }
